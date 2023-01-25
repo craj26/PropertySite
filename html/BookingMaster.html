@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    XYZ Buliders Inc.
+                </h1>
+            </div>
+            <div class="menu">
+                 <ul>
+                     <li><a href="home.html">Home</a></li>
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">Login</a></li>
+                     <li><a href="#">Sign Up</a></li>
+                 </ul>   
+            </div>
+        </div>
+    </header>
+    <div class="AdminContainer">
+        <div class="AdminSidebar">
+            <div>
+                <a href="#">Home</a>                
+            </div>
+            <div>
+                <a href="#">City Master</a>                
+            </div>
+            <div>
+                <a href="#">Booking Master</a>                
+            </div>
+            <div>
+                <a href="#">User Details</a>                
+            </div>
+
+        </div>
+        <div class="AdminMain">
+            <h1>Booking Master</h1>
+            <hr>
+            <br>
+            <form>
+                <div class="FormRow">
+                    <label>City ID:</label>
+                    <label name="txtCityId"></label>
+                </div>
+                <div class="FormRow">
+                    <label>City Name:</label><br>
+                    <input type="text" name="txtCity">
+                </div>
+                <div class="FormRow">
+                    <label>State Name:</label><br>
+                    <input type="text" name="txtState">
+                </div>
+                <div class="FormRow" style="display: flex; justify-content: center;width: 50%;">
+                    <input type="submit" value="Submit" class="btn" style="width: 100px;">
+                    <input type= "reset" value="Reset" class="btn" style="width: 100px;margin-left: 20px;">
+                </div>
+            </form>
+            <br>
+            <hr><hr>
+            <br>
+            <table class="CityTable">
+                <tr>
+                    <th>
+                        Booking Id.
+                    </th>
+                    <th>
+                        User Id
+                    </th>
+                    <th>
+                        User Name
+                    </th>
+                    <th>
+                        User Mobile
+                    </th>
+                    <th>
+                        City
+                    </th>
+                    
+                    <th>
+                        Occupation
+                    </th>
+                    <th>
+                        Property ID
+                    </th>
+                    <th>
+                        Property Name
+                    </th>
+                    <th>
+                        Property City
+                    </th>
+                    <th>
+                        Status                            
+                    </th> 
+                    <th>Update</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>ABC</td>
+                    <td>xxxxxxxxx</td>
+                    <td>Indore</td>
+                    <td>Business</td>
+                    <td><a href="">1</a></td>
+                    <td>1 BHK Flat</td>
+                    <td>Indore</td>
+                    <td>Booked</td>
+                    <td><a href="">Edit</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>PQR</td>
+                    <td>xxxxxxxxx</td>
+                    <td>Bhopal</td>
+                    <td>Govt. Service</td>
+                    <td><a href="">2</a></td>
+                    <td>Row House</td>
+                    <td>Indore</td>
+                    <td>In Progress</td>
+                    <td><a href="">Edit</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

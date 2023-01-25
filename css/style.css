@@ -1,0 +1,339 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.container
+{
+    display: flex;
+    width: 80%;  
+    margin: auto; 
+    align-items: center;
+}
+.logo
+{
+    flex-basis: 20%;
+    color: #fff;
+    justify-content: center;
+}
+.menu
+{
+    flex-basis: 80%;
+   
+}
+.menu ul
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+.menu a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu a:hover
+{
+    background-color: cornsilk;
+    color: black;
+    border-radius: 10px;
+}
+.logout
+{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    
+    font-size: 20px;
+}
+.logout:hover
+{
+    background-color: cornsilk;
+    color: black;
+    border-radius: 10px;
+}
+
+.body-container
+{
+    width: 80%;
+    margin: auto;
+}
+.banner
+{
+    height: 350px;
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 300px;
+}
+.banner h1
+{
+    font-size: 50px;
+}
+.search
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.search input
+{
+    padding: 20px;
+    border-radius: 10px;
+}
+.search input[type="text"]
+{
+    width: 80%;
+    font-size: 15px;
+}
+.search input[type="submit"]
+{
+    width: 10%;
+    font-size: 15px;
+}
+.property
+{
+    text-align: center;
+    flex-basis: 25%;
+
+}
+.row
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    
+}
+footer
+{
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginMain
+{
+    margin: auto;
+    background-color: lightblue;
+    width: 500px;
+    margin-top: 100px;
+    border: 2px solid blue;
+    padding-bottom: 10px;
+}
+
+.LoginMain h1
+{
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.LoginRow
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.LoginRow p
+{
+    font-size: 20px;
+    
+    
+}
+
+.LoginRow input[type="text"]
+{
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.LoginRow input[type="Password"]
+{
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+
+.LoginRow input[type="Submit"]
+{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+
+}
+.AdminContainer
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.AdminSidebar
+{
+    flex-basis: 20%;
+    background-color: blue;
+}
+.AdminMain
+{
+    flex-basis: 80%;
+    background-color: cornsilk;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.AdminSidebar div a
+{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.AdminSidebar div a:hover
+{
+    background-color: cornsilk;
+    color: black;
+    border-radius: 5px;
+}
+.FormRow
+{
+    min-height: 50px;
+    margin-top: 10px;
+}
+.FormRow input
+{
+    width: 50%;
+    padding: 10px ;
+}
+.FormRow textarea
+{
+    width: 50%;
+    padding: 10px ;
+}
+.ddlCity
+{
+    width: 50%;
+    padding: 10px ;
+}
+
+.btn
+{
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.CityTable
+{
+    width: 100%;
+}
+.CityTable th
+{
+    background-color: blue;
+    font-size: 20px;
+    color: #fff;
+}
+.CityTable td
+{
+    text-align: center;
+}
+.PropertyViewMain
+{
+    display: flex;
+    margin-top: 10px;
+}
+.PropertyImage
+{
+    flex-basis: 40%;
+
+}
+.PropertyImage img
+{
+    max-width: 500px;
+    height: auto;
+}
+.PropertyDetails
+{
+    flex-basis: 40%;
+    margin-left: 30px;
+}
+.PropertyDetails h2
+{
+    padding: 15px;
+}
+.PropertyDetails h3
+{
+    padding: 15px;
+}
+.PropertyDetails input
+{
+    padding: 15px;
+    margin-left: 10px;
+    width: 100px;
+}
+.UserList
+{
+    width: 100%;
+    overflow: auto;
+    max-height: 700px;
+}
+.UserList th
+{
+    background-color: blue;
+    color: #fff;
+}
+.UserList td
+{
+    text-align: center;
+
+}
+.ProppertyFormMain
+{
+    display: flex;
+    align-items: flex-start;
+}
+.propertyForm
+{
+    flex-basis: 50%;
+}
+.propertyForm2
+{
+    flex-basis: 50%;
+}
+.propertyForm .FormRow input
+{
+    width: 80%;
+    padding: 10px ;
+}
+.PropertyFormImg
+{
+    max-width:300px;
+    max-height:400px;
+    border: 1px solid black;
+    
+}
+
+.PropertyViewImg
+{
+    max-width: 500px;
+    height: auto;
+}
+
